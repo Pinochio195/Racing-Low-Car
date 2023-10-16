@@ -41,7 +41,6 @@ public class VehicleStandardInputInspector : Editor
 			EditorGUILayout.PropertyField(serializedObject.FindProperty("throttleAndBrakeAxis"));
 			}
 
-		EditorGUILayout.PropertyField(serializedObject.FindProperty("handbrakeAxis"));
 		EditorGUILayout.PropertyField(serializedObject.FindProperty("resetVehicleKey"));
 
 		serializedObject.ApplyModifiedProperties();

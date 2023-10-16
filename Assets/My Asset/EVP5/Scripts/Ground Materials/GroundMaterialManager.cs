@@ -1,10 +1,4 @@
-﻿//------------------------------------------------------------------------------------------------
-// Edy's Vehicle Physics
-// (c) Angel Garcia "Edy" - Oviedo, Spain
-// http://www.edy.es
-//------------------------------------------------------------------------------------------------
-
-using UnityEngine;
+﻿using UnityEngine;
 using System;
 
 namespace EVP
