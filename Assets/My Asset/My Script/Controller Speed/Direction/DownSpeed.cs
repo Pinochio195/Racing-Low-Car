@@ -29,8 +29,8 @@ public class DownSpeed : MonoBehaviour,IPointerDownHandler, IPointerUpHandler
     {
         if (isCheckSpeed)
         {
-            _speedCar += 2.6f * Time.deltaTime;
-            _speedCar = Mathf.Clamp(_speedCar, 0, 1);
+            _speedCar -= 2.6f * Time.deltaTime;
+            _speedCar = Mathf.Clamp(_speedCar, -1, 0);
         }
     }
 }
