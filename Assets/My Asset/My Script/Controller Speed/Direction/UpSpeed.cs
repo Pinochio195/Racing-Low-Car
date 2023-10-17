@@ -12,8 +12,6 @@ public class UpSpeed : MonoBehaviour,IPointerDownHandler, IPointerUpHandler
     private void Update()
     {
         SpeedUpCar();
-        Debug.Log(_speedCar);
-        Debug.Log(Input.GetAxis("Vertical"));
     }
 
     public void OnPointerDown(PointerEventData eventData)

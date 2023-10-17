@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
         if (_instance == null)
         {
             _instance = this;
-            DontDestroyOnLoad(_instance);
         }
         else if (_instance != this)
         {
@@ -40,6 +39,8 @@ public class GameManager : MonoBehaviour
 
     [HeaderTextColor(.6f, 1f, .6f, headerText = "Ui GameObject")]
     public Game_Manager _directionCar;
+    [HeaderTextColor(.6f, 1f, .6f, headerText = "Change GamePlay")]
+    public Game_Play _gamePlay;
     // Start is called before the first frame update
     void Start()
     {

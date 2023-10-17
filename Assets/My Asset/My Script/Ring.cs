@@ -20,6 +20,17 @@ namespace Ring
     {
         [ChangeColorLabel(.7f, 1f, 1f)] public float _speedVertical_Horizontal;
         [ChangeColorLabel(.7f, 1f, 1f)] public bool isBosst = false; // Thêm biến mới để kiểm tra boost
+        
+    }
+    [Serializable]
+    public class Game_Play
+    {
+        public enum GamePlay
+        {
+            Auto,Non_Auto
+        }
+
+        [ChangeColorLabel(.7f, 1f, 1f)] public GamePlay _gamePlay;
     }
 }
 

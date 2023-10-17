@@ -17,11 +17,7 @@ using UnityEngine.Rendering;
 
 namespace EVP
 {
-
-// Variables for each mark point created.
-// A mark segment will be generated from each two consecutive marks.
-
-public class MarkPoint
+	public class MarkPoint
 	{
 	public Vector3 pos = Vector3.zero;
 	public Vector3 normal = Vector3.zero;
